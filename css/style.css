@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	background:#fff;
-	font-family: 'Roboto Slab', serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 body a{
 	transition: 0.5s all;
@@ -253,7 +253,7 @@ ul{
 }
 .welcome-left-in p{
 	color:black;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	width: 85%;
 	line-height: 1.7em;
 	margin: 0 ;
@@ -282,7 +282,8 @@ ul{
 	text-align: center;
 	}
 .intruduction-bottom {
-	padding:50px  10px 10px 10px;
+	margin:50px 0;
+	padding:0 30px 0 60px;
 }
 .intruduction-text  {
 	padding:50px 0 0 ;
@@ -330,14 +331,14 @@ div#example1 {
 	padding: 1em 0 2em;
 }
 a.read-more{
-	font-size: 1.5em; color: #000;
-	text-decoration: none;
-	border-bottom:2px solid #000;
+	font-size: 1.2em; color: rgb(252, 14, 14);
+	background-color: rgb(247, 149, 132);
+	border:1px dashed #000;
 	font-weight: 400;
 }
 a.read-more:hover{	
 	color: #e52a49;
-	border-bottom:none;
+	font-size:1.5em;
 }
 .number {
 	padding: 0 1.5em;
@@ -398,7 +399,7 @@ a.read-more:hover{
 	font-size: 14px;
 	list-style: none;
 	width: 100%;
-	height: 4800px;
+	height: 5300px;
 	font-family: 'Times New Roman', Times, serif;
 	padding:0 0 0 10px;
 }
@@ -484,14 +485,12 @@ a.read-more:hover{
 
 /*------ bottom-grids -----*/
 .bottom-grids{
-    margin:5em 0 2em;
+    margin:5em 0 5em;
 	padding: 4em 0 5em 0;
-	background-color:rgb(247, 244, 244)
-
-	
+	background-color:rgb(247, 244, 244)	
 }
 .bottom-grids-left{
-	margin:2em 0 2em 2em;
+	margin:2em 0 0 0;
 	border: 1px dashed rgb(182, 184, 183);
 	border-top:50px solid rgb(182, 184, 183);
 	background-color: white;
@@ -516,6 +515,9 @@ a.read-more:hover{
 	border-bottom:none;
 	color:red;
 }
+.bottom-grids-right{
+	margin:0 ;
+}
 .bottom-grids-right h4{
 	color:#000;
 	font-weight:600;
@@ -538,7 +540,7 @@ list-style:none;
 .bottom-grids-right ul li a{
 	color:#777;
 	text-decoration:none;
-	text-transform:uppercase;
+	text-transform:none;
 	padding:0.7em 0;
 	display:block;
 	border-bottom:2px solid #EEE;
@@ -557,10 +559,8 @@ list-style:none;
 	margin-right:0.5em;
 }
 .bottom-grids-bottom{
-	margin:460px 0 0 65px;
+	margin:  50px 0 0;
 	padding:20px 0 0 30px;
-	width: 1000px;
-	height: 300px;
 	border-radius: 5px;
 	border: 1px dashed rgb(182, 184, 183);
 	background-color: white;
@@ -586,10 +586,8 @@ list-style:none;
 	color:red;
 }
 .bottom-grids-bottom1{
-	margin:20px 0 0 65px;
+	margin:30px 0 0 0;
 	padding:20px 0 0 30px;
-	width: 1000px;
-	height: 300px;
 	border-radius: 5px;
 	border: 1px dashed rgb(182, 184, 183);
 	background-color: white;
@@ -615,10 +613,8 @@ list-style:none;
 	color:red;
 }
 .bottom-grids-bottom2{
-	margin:20px 0 0 65px;
+	margin:30px 0 0;
 	padding:20px 0 0 30px;
-	width: 1000px;
-	height: 800px;
 	border-radius: 5px;
 	border: 1px dashed rgb(182, 184, 183);
 	background-color: white;
@@ -880,7 +876,7 @@ list-style:none;
 p.footer-grid{
 	color:#fff;
 	font-size:1.3em;
-	text-transform:uppercase;
+	text-transform:none;
 	text-align: left;
 	padding:2px 0px;
 }
@@ -954,7 +950,7 @@ p.footer-grid{
 	overflow: hidden;
 }
 .gallery h3 {
-	font-size: 5em;
+	font-size: 2.5em;
 	padding:10px 0
 }
 .gallery {
