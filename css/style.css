@@ -308,13 +308,13 @@ div#example1 {
 	padding: 1em 0 2em;
 }
 a.read-more{
-	font-size: 1.2em; color: rgb(252, 14, 14);
-	background-color: rgb(247, 149, 132);
+	font-size: 1.2em; color: rgb(65, 113, 243);
+	background-color: rgba(194, 187, 186,0.5);
 	border:1px dashed #000;
 	font-weight: 400;
 }
 a.read-more:hover{	
-	color: #e52a49;
+	color: #3515eb;
 	font-size:1.5em;
 }
 .number {
@@ -379,9 +379,10 @@ a.read-more:hover{
 	font-size: 14px;
 	list-style: none;
 	width: 100%;
-	height: 5800px;
+	height: 6400px;
 	font-family: 'Times New Roman', Times, serif;
-	padding:0 0 0 10px;
+	padding:0 0;
+	margin:0 0 5em;
 }
 .about-grid1{
 	line-height:em;
@@ -828,10 +829,10 @@ list-style:none;
 .contact-bottom h4{
 	font-size:1.4em;
 	margin:2em 0 0;
-	color: rgb(85, 58, 236);
+	color: #019c63;
 }
 .contact-bottom{
-background-color:rgba(204, 207, 206, 0.2);
+background-color:rgba(206, 252, 236, 0.2);
 padding:0.5em 2em 1em;
 font-size:1.2em;
 line-height: 2em;
