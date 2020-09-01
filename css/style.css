@@ -80,7 +80,8 @@ h1,h2,h3,h4,h5,h6,p,label{
 	text-transform: capitalize;
 	line-height: 1.5em;
 	width: 80%;
-	margin-left: 150px;
+	margin-left: 400px;
+	margin-bottom: 60px;
 	text-align: center;
  }
 .banner{
@@ -132,14 +133,14 @@ h1,h2,h3,h4,h5,h6,p,label{
 	width: 150px;
 	height:50px;
 	margin-right:1px;
-	font-size:1.4em;
+	font-size:1.45em;
 	text-transform: capitalize;
 }
 .top-nav ul li:hover{
 	color:blue;
 	background-color: rgba(248, 157, 171,0.5);
-	font-weight: 600;
-	font-size:1.5em;
+	font-weight: 750;
+	font-size:1.55em;
 }
 .top-nav ul li a{
 	text-decoration:none;
@@ -153,7 +154,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 .top-nav ul li ul li{
 	position: relative;left:-40px;
 	display:none;
-	width: 280px;
+	width: 300px;
 	height:48px;
 	float:initial;
 	background-color: rgb(248,157,171,0.5);
@@ -266,10 +267,10 @@ h1,h2,h3,h4,h5,h6,p,label{
 	color: rgb(15, 10, 10);
 }
 .introduction-p {
-	font-family:'Times New Roman', Times, serif ;
+	font-family:Arial, Helvetica, sans-serif;
 	font-size: 1.5em;
 	line-height: 1.5em;
-	padding:30px 10px ;
+	padding:20px 0px 40px;
 }
 /*----*/	
 /*----*/
@@ -367,7 +368,7 @@ a.read-more:hover{
 	font-size: 14px;
 	list-style: none;
 	width: 100%;
-	height: 2900px;
+	height: 1900px;
 	font-family: 'Times New Roman', Times, serif;
 	padding:0 0 0 10px;
 	margin:0 0 5em;
@@ -379,14 +380,10 @@ a.read-more:hover{
 	font-size: 14px;
 	list-style: none;
 	width: 100%;
-	height: 6400px;
+	height: 6300px;
 	font-family: 'Times New Roman', Times, serif;
 	padding:0 0;
 	margin:0 0 5em;
-}
-.about-grid1{
-	line-height:em;
-	font-size: 1.5em;
 }
 .about-grid h3{
 	margin: 0.8em 0;
@@ -821,19 +818,14 @@ list-style:none;
 	background: #2a3e73;
 }
 .contact {
-	padding: 4em 0 6em;
+	padding: 4em 0 4em;
 }
 .contact-map {
 	padding: 2em 0;
 }
-.contact-bottom h4{
-	font-size:1.4em;
-	margin:2em 0 0;
-	color: #019c63;
-}
 .contact-bottom{
 background-color:rgba(206, 252, 236, 0.2);
-padding:0.5em 2em 1em;
+padding:1em 2em 2em;
 font-size:1.2em;
 line-height: 2em;
 margin:2em 0 0;
